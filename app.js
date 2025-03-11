@@ -31,11 +31,12 @@ function actualizarLista() {
     let listaAmigos = document.getElementById("listaAmigos");
     listaAmigos.innerHTML = ""; // Limpiar la lista antes de actualizar
 
-    listaDeAmigos.forEach((amigo) => {
+    // Recorrer el array y agregar cada nombre como un <li>
+    for (let i = 0; i < listaDeAmigos.length; i++) {
         let li = document.createElement("li");
-        li.textContent = amigo;
+        li.textContent = listaDeAmigos[i];
         listaAmigos.appendChild(li);
-    });
+    }
 }
 
 
