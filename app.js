@@ -24,3 +24,16 @@ function agregarAmigo() {
     // Limpiar el campo de entrada
     inputAmigo.value = "";
 }
+
+
+// Función para actualizar la lista en la interfaz
+function actualizarLista() {
+    let listaAmigos = document.getElementById("listaAmigos");
+    listaAmigos.innerHTML = ""; // Limpiar la lista antes de actualizar
+
+    listaDeAmigos.forEach((amigo) => {
+        let li = document.createElement("li");
+        li.textContent = amigo;
+        listaAmigos.appendChild(li);
+    });
+}
