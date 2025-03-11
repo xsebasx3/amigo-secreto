@@ -19,7 +19,6 @@
 - [Acceso al Proyecto](#-acceso-al-proyecto)
 - [Tecnologías Utilizadas](#-tecnologías-utilizadas)
 - [Personas Desarrolladoras del Proyecto](#-personas-desarrolladoras-del-proyecto)
-- [Licencia](#-licencia)
 
 ---
 
