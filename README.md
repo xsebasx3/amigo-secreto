@@ -1,7 +1,7 @@
 
 # Amigo Secreto
 
-![logo](assets/imagen.png)
+![logo](assets/A.png)
 
 ## 🏅 Insignias
 
